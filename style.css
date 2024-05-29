@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border:2px solid black;
+    border-radius: 15px;
+    box-shadow: 8px 8px 0px 0px rgb(0, 0, 0);
+    max-width: 20vw;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    gap: 15px;
+}
+
+.container img{
+    border-radius: 10px;
+}
+
+.container h5{
+    width: 20%;
+    text-align: center;
+    padding: 4px 2px 2px 2px;
+    border-radius: 5px;
+}
+.container h4{
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.container p{
+    background-color: rgba(240, 248, 255, 0);
+    color: grey;
+}
+
+.container h2{
+    font-size: 25px;
+    font-weight: 900;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.author{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0);
+    gap: 10px;
+}
+
+.author img{
+    background-color: rgba(240, 248, 255, 0);
+    width: 20px;
+}
+
+.author h6{
+    background-color: rgba(240, 248, 255, 0);
+    font-size: 15px;
+}
+
+@media (max-width: 600px) {
+    .container{
+        max-width: 75vw;
+    }
+  }
+  
